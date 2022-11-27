@@ -55,18 +55,9 @@ JOptionPane.showConfirmDialog(null,"config:查看此系统名称", "命令提示
         });
         cmd.setBounds(0,100,500,100);
         //==============================================================================//命令提示符完成
-        JButton call = new JButton("联系作者");
-        call.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JOptionPane.showConfirmDialog(null,"群号（钉钉）:25120005570", "命令提示符弹出的窗口" , JOptionPane.YES_NO_CANCEL_OPTION );
-                JOptionPane.showConfirmDialog(null,"电话：18253603063", "命令提示符弹出的窗口" , JOptionPane.YES_NO_CANCEL_OPTION );
-                JOptionPane.showConfirmDialog(null,"邮箱（钉钉）：x6i_b9xdlc5wj@dingtalk.com", "命令提示符弹出的窗口" , JOptionPane.YES_NO_CANCEL_OPTION );
-            }
-        });
-        call.setBounds(0,200,500,100);
+      
         //============================================================================//
-        c.add(call);
+
         c.add(cmd);
         c.add(system);
         setVisible(true);
